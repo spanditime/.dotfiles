@@ -13,7 +13,7 @@ awful.keyboard.append_global_keybindings({
     awful.key({ modkey, "Control" }, "r", awesome.restart,
               {description = "reload awesome", group = "awesome"}),
 
-    awful.key({ modkey   }, "l", function () awful.spawn("xautolock -locknow") end,
+    awful.key({ modkey   }, "l", function () awful.spawn(locker_cmd) end,
               {description = "lock", group = "awesome"}),
     -- awful.key({ modkey, "Shift"   }, "q", awesome.quit,
     --           {description = "quit awesome", group = "awesome"}),
@@ -133,6 +133,8 @@ awful.keyboard.append_global_keybindings({
 	-- Programs
     awful.key({ modkey, "Shift"   }, "Return", function () awful.spawn(terminal) end,
               {description = "open a terminal", group = "launcher"}),
+    awful.key({ modkey, "Shift"   }, "e", function () awful.spawn(fm_cmd) end,
+              {description = "open a file explorer", group = "launcher"}),
 })
 
 -- layout
