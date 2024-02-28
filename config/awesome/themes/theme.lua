@@ -13,22 +13,18 @@ local theme = {}
 
 theme.font          = "Cascadia Code 12"
 theme.taglist_font  = "Cascadia Code 12"
- 
--- {"Dark moss green":"4A5F21","Olive":"919137","Alice Blue":"DFE9EC","Cadet gray":"9AAEBF","Dark moss green 2":"32480F","Khaki":"999479","Dark green":"0F2119","UCLA Blue":"4678A7","Outer space":"495454","Pakistan green":"213D1A"}
--- colors are generated from bg image using pallete generator
---colors--
-theme.bg1 = "#0F2119"
-theme.bg2 = "#213D1A"
-theme.bg3 = "#32480F"
-theme.s1 = "#4A5F21"
-theme.s2 = "#495454"
-theme.s3 = "#919137"
-theme.fg1 = "#F9D9DC"
-theme.fg2 = "#F6FAFE"
-theme.fggreen = "#DFE9EC"
-theme.bggreen = "#919137"
-theme.bgred = "#9AAEBF"
-theme.fgred = "#D6000B"
+theme.bg1 = "#17184b"
+theme.bg2 = "#43676b"
+theme.bg3 = "#3a5b52"
+theme.s1 = "#6d875b"
+theme.s2 = "#839b5c"
+theme.s3 = "#aacf53"
+theme.fg1 = "#fef4f4"
+theme.fg2 = "#fef4f4"
+theme.fggreen = "#e0ebaf"
+theme.bggreen = theme.s3
+theme.bgred = "#d3381c"
+theme.fgred = "#d3381c"
 
 --Notification variables--
 theme.notification_max_width = 600
