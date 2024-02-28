@@ -83,6 +83,8 @@ nnoremap <silent><C-k> m`:silent -g/\m^\s*$/d<CR>``:noh<CR>
 nnoremap <silent><A-j> :set paste<CR>m`o<Esc>``:set nopaste<CR>
 nnoremap <silent><A-k> :set paste<CR>m`O<Esc>``:set nopaste<CR>
 
+inoremap kj <esc>
+
 " Find files using Telescope command-line sugar.
 " open las used Telescope window
 nnoremap <leader>e <cmd>Vifm<cr>

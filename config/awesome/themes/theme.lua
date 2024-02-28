@@ -13,19 +13,21 @@ local theme = {}
 
 theme.font          = "Cascadia Code 12"
 theme.taglist_font  = "Cascadia Code 12"
-
+ 
+-- {"Dark moss green":"4A5F21","Olive":"919137","Alice Blue":"DFE9EC","Cadet gray":"9AAEBF","Dark moss green 2":"32480F","Khaki":"999479","Dark green":"0F2119","UCLA Blue":"4678A7","Outer space":"495454","Pakistan green":"213D1A"}
+-- colors are generated from bg image using pallete generator
 --colors--
-theme.bg1 = "#1C2329"
-theme.bg2 = "#232F34"
-theme.bg3 = "#2D3741"
-theme.s1 = "#493840"
-theme.s2 = "#5A3A40"
-theme.s3 = "#904448"
+theme.bg1 = "#0F2119"
+theme.bg2 = "#213D1A"
+theme.bg3 = "#32480F"
+theme.s1 = "#4A5F21"
+theme.s2 = "#495454"
+theme.s3 = "#919137"
 theme.fg1 = "#F9D9DC"
 theme.fg2 = "#F6FAFE"
-theme.fggreen = "#94F794"
-theme.bggreen = "#41683C"
-theme.bgred = theme.s3
+theme.fggreen = "#DFE9EC"
+theme.bggreen = "#919137"
+theme.bgred = "#9AAEBF"
 theme.fgred = "#D6000B"
 
 --Notification variables--
@@ -131,7 +133,7 @@ theme.titlebar_maximized_button_focus_inactive  = themes_path.."default/titlebar
 theme.titlebar_maximized_button_normal_active = themes_path.."default/titlebar/maximized_normal_active.png"
 theme.titlebar_maximized_button_focus_active  = themes_path.."default/titlebar/maximized_focus_active.png"
 
-theme.wallpaper = "/home/spanditime/Pictures/wallpapers/evangelion.jpg"
+theme.wallpaper = "/home/spanditime/Pictures/wallpapers/mountain_wallpapers.jpg"
 
 -- You can use your own layout icons like this:
 theme.layout_fairh = themes_path.."default/layouts/fairhw.png"

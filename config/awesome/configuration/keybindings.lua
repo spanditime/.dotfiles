@@ -13,7 +13,7 @@ awful.keyboard.append_global_keybindings({
     awful.key({ modkey, "Control" }, "r", awesome.restart,
               {description = "reload awesome", group = "awesome"}),
 
-    awful.key({ modkey   }, "l", function () awful.spawn(locker_cmd) end,
+    awful.key({ modkey, "Mod1"   }, "l", function () awful.spawn(locker_cmd) end,
               {description = "lock", group = "awesome"}),
     -- awful.key({ modkey, "Shift"   }, "q", awesome.quit,
     --           {description = "quit awesome", group = "awesome"}),
