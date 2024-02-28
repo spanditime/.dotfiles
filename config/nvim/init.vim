@@ -60,6 +60,7 @@ Plug 'chrisbra/colorizer'                   " since last plugin dont have suppor
 
 
 " some git features directly from vim improved from shell com
+Plug 'machakann/vim-colorscheme-tatami'
 
 
 " visual sugar
@@ -117,8 +118,7 @@ set cursorline
 
 set list lcs=space:⋅,eol:↴,tab:¦⋅
 
-colorscheme spanditimePurple
-
+colorscheme tatami
 
 " indent settings
 lua require "user.lsp"
