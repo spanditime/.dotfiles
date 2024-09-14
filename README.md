@@ -1,4 +1,6 @@
 # .dotfiles
+This repository is abandoned, kept here just in case i would ever need it
+now i use nixOS, so most of the stuff is now [here]( https://github.com/spanditime/.nixos )
 ##awesome
 For backlight control and volume light and pavucontrol/pamixer are used respectively
 ```
